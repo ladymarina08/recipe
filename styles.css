@@ -1,0 +1,148 @@
+:root{
+    --fonte-principal: "Young Serif", serif;
+    --fonte-secundaria: "Outfit";
+    
+}
+
+body{
+    font-family: var(--fonte-principal);
+    width: 375px;
+    height: 812px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    padding: 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.heading-L{
+    font-family: var(--fonte-principal);
+    color: #312E2C;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.heading-M{
+    font-family: var(--fonte-principal);
+    color: #854632;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    
+}
+
+.heading-S{
+    font-family: var(--fonte-secundaria);
+    color: #7A284E;
+    font-size: 20px;
+    
+}
+
+p, li{
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: 5F564D;
+    
+
+}
+
+img{
+    height: 171px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.preparation{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.preparation-total{
+    list-style-type: none;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+hr{
+    background: #E3DDD7;
+    width: 311px;
+    height: 1px;
+}
+
+span{
+    color: #854632;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    width: 16px;
+}
+
+.instructions-steps{
+    list-style-type: none;
+    display: flex;
+    padding-left: 8px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    
+}
+
+td{
+    font-family: var(--fonte-secundaria);
+}
+
+.fio-tabela{
+    background: #E3DDD7;
+    width: 311px;
+    height: 1px;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.valores-tabela{
+    color: #854632;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
